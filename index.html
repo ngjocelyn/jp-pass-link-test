@@ -1,0 +1,10 @@
+<script>
+  var ua = navigator.userAgent;
+  if (/iPhone/i.test(ua)) {
+    window.location.href = "https://apps.apple.com/sg/app/jp-pass/id6748783592";
+  } else if (/Android/i.test(ua)) {
+    window.location.href = "https://play.google.com/store/apps/details?id=sg.com.jp.jpas&pcampaignid=web_share";
+  } else {
+    window.location.href = "https://jppass.jp.com.sg/"; // desktop fallback
+  }
+</script>
